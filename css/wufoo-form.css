@@ -1,0 +1,37 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Rosetta’ theme
+ Author : David Brezina
+ URL : http://rosettatype.com/
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+.wufoo, #container{
+	background: #e2e9eb;
+}
+
+.wufoo .submit {
+	display: block;
+	margin: 20px 0;
+	width: 150px;
+	height: 45px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background: #24678a;
+	border: 0px;
+	text-align: center;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0px 8px 0px #194962;
+}
+.wufoo .submit:hover{
+	background: #c70028;
+	box-shadow: 0px 8px 0px #610013;
+}
+
+.wufoo .focused{
+	background: #bbb0a6;
+}

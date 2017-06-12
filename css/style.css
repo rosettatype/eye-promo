@@ -1,0 +1,615 @@
+/*!
+ *
+ *	Project:	Type Specimen
+ *	Author:		Petr Urbanek - www.r4ms3s.cz
+ *	Twitter:	@r4ms3scz
+ *
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+#font #family .Yrsa {
+  font-family: 'yrsa', serif, Georgia, "Times New Roman", Times;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+}
+ol {
+  list-style: none;
+}
+dl {
+  margin-bottom: 0;
+}
+hr {
+  margin: 0;
+  border: 0;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+abbr {
+  font-size: 90%;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #ddd;
+  cursor: help;
+}
+small {
+  font-size: 100%;
+}
+cite {
+  font-style: normal;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(js/boxsizing.htc);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #fff;
+  margin: 0;
+  font-size: 12px;
+  font-size: 1.2pxrem;
+  line-height: 1;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: #000;
+}
+a,
+a:visited {
+  color: #c70028;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #c70028;
+}
+.in {
+  position: relative;
+  width: 1121px;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background: #212121;
+  text-align: left;
+}
+header .in {
+  height: 66px;
+}
+header h1 {
+  position: absolute;
+  left: 162px;
+  top: 0;
+  padding: 17px 9px;
+  width: 101px;
+  height: 22px;
+  border-top: 0;
+  background: #212121;
+  text-align: center;
+}
+header h1 a {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent !important;
+  display: block;
+  width: 101px;
+  height: 22px;
+  background: url(../img/logo-rosetta-white.svg) 0 0 no-repeat;
+}
+header h1 a:hover {
+  background: url(../img/logo-rosetta-red.svg) 0 0 no-repeat;
+  text-decoration: none;
+  border-bottom: 0;
+}
+header a.back {
+  position: absolute;
+  color: #fff;
+  right: 38px;
+  top: 24px;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1;
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 0;
+}
+header a:hover {
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+}
+footer .in {
+  padding: 25px 0 30px 160px;
+  text-align: center;
+}
+section {
+  width: 100%;
+}
+section .motto {
+  border-bottom: 1px dotted #bbb0a6;
+}
+section .motto .in {
+  padding: 100px 0 55px 175px;
+}
+section .motto h2 {
+  float: left;
+  width: 690px;
+  font-family: 'yrsa', serif, Georgia, "Times New Roman", Times;
+  font-weight: 400;
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 1.4em;
+  color: #545151;
+  padding-bottom: 1em;
+}
+section .motto h2 strong {
+  font-weight: 700;
+}
+section .motto h2 a {
+  text-decoration: none;
+  border-bottom: 1px dotted #c70028;
+}
+section .motto .share {
+  padding: 4em 0;
+  width: 690px;
+}
+section .motto .share div {
+  width: 690px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+section .motto .more {
+  float: right;
+  padding: 0 10px 0 0;
+  width: 210px;
+}
+section .motto .more a.buy {
+  display: block;
+  margin: 0 0 20px 0;
+  width: 200px;
+  height: 60px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 60px;
+  font-weight: bold;
+  color: #fff;
+  background: #24678a;
+  border-bottom: 0px;
+  text-align: center;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0px 10px 0px #194962, 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+section .motto .more a.buy:hover {
+  background: #c70028;
+  box-shadow: 0px 10px 0px #610013, 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+section .motto .more p {
+  margin: 0 0 12px 0;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1.3em;
+  color: #545151;
+}
+section .motto .more .share {
+  padding: 15px 0 0 0;
+}
+section .motto .more .share div {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+section article {
+  border-bottom: 1px dotted #bbb0a6;
+}
+section article p {
+  float: left;
+  padding: 22px 20px 20px 12px;
+  width: 160px;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1.3em;
+  color: #545151;
+}
+section article p strong {
+  display: block;
+  margin: 0 0 8px 0;
+}
+section article .in-article {
+  float: right;
+  padding: 10px;
+  width: 961px;
+}
+section article .in-article h3 {
+  float: left;
+  width: 690px;
+  font-family: 'yrsa', serif, Georgia, "Times New Roman", Times;
+  font-weight: bold;
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 1.4em;
+  color: #545151;
+  padding: 10px 0;
+}
+section article .in-article .img {
+  position: relative;
+  width: 100%;
+}
+section article .in-article .img.first {
+  height: 480px;
+}
+section article .in-article .img.last {
+  height: 625px;
+}
+section article .in-article .img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+section article .in-article .img img.act {
+  z-index: 10;
+}
+section article .in-article .img img.next {
+  z-index: 5;
+}
+section article .in-article .img-left,
+section article .in-article .img-right {
+  position: relative;
+  margin: -10px 0;
+}
+section article .in-article .img-left img,
+section article .in-article .img-right img {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 460px;
+  height: 308px;
+}
+section article .in-article .img-left {
+  float: left;
+  width: 470px;
+  height: 328px;
+  border-right: 1px dotted #bbb0a6;
+}
+section article .in-article .img-right {
+  float: right;
+  width: 460px;
+  height: 328px;
+}
+section article .form {
+  background: #e2e9eb;
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (max-width: 1121px) {
+  .in {
+    width: 1002px;
+  }
+  footer p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.7em;
+  }
+  section .motto h2 {
+    width: 590px;
+    font-size: 21px;
+    font-size: 2.1rem;
+    line-height: 1.7em;
+  }
+  section article .in-article {
+    width: 842px;
+  }
+  section article .in-article .img.first {
+    height: 420px;
+  }
+  section article .in-article .img.last {
+    height: 545px;
+  }
+  section article .in-article .img-left img,
+  section article .in-article .img-right img {
+    width: 400px;
+    height: 268px;
+  }
+  section article .in-article .img-left {
+    width: 410px;
+    height: 288px;
+  }
+  section article .in-article .img-right {
+    width: 400px;
+    height: 288px;
+  }
+}
+@media screen and (max-width: 1002px) {
+  .in {
+    width: 762px;
+  }
+  footer p {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.7em;
+  }
+  section .motto h2 {
+    float: none;
+    margin: 0 0 30px 0;
+    padding: 0 10px 0 0;
+    width: 100%;
+    font-size: 17px;
+    font-size: 1.7rem;
+    line-height: 1.7em;
+  }
+  section .motto .more {
+    float: none;
+    width: 100%;
+  }
+  section .motto .more a.buy {
+    float: left;
+    width: 217px;
+  }
+  section .motto .more .desc {
+    float: right;
+    width: 340px;
+  }
+  section article .in-article {
+    width: 602px;
+  }
+  section article .in-article .img.first {
+    height: 297px;
+  }
+  section article .in-article .img.last {
+    height: 386px;
+  }
+  section article .in-article .img-left img,
+  section article .in-article .img-right img {
+    width: 280px;
+    height: 188px;
+  }
+  section article .in-article .img-left {
+    width: 290px;
+    height: 208px;
+  }
+  section article .in-article .img-right {
+    width: 280px;
+    height: 208px;
+  }
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+.c {
+  *zoom: 1;
+}
+.c:before,
+.c:after {
+  display: table;
+  content: "";
+}
+.c:after {
+  clear: both;
+}
+.vh {
+  border: 0;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+.vh.focusable:active,
+.vh.focusable:focus {
+  clip: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  height: auto;
+}
+.log {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 25px;
+}
